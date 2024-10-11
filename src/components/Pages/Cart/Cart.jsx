@@ -48,12 +48,12 @@ import { StoreContext } from '../../../Context/StoreContext';
             <hr />
             <div className="cart-total-details">
               <p>Delivery Fee</p>
-              <p>₹{2}</p>
+              <p>₹{20}</p>
             </div>
             <hr />
             <div className="cart-total-details">
               <b>Total</b>
-              <b>₹{getTotalCartAmount() + 2}</b>
+              <b>₹{getTotalCartAmount() + 20}</b>
             </div>
           </div>
           <button>PROCEED TO CEHCKOUT</button>
